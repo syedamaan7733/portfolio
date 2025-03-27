@@ -9,19 +9,19 @@ export const links = [
     path: "/",
   },
   {
-    name: "services",
+    name:"" // "services",
     path: "/services",
   },
   {
-    name: "resume",
+    name: ""// "resume",
     path: "/resume",
   },
   {
-    name: "work",
+    name: "" //"work",
     path: "/work",
   },
   {
-    name: "contact",
+    name: ""//"contact",
     path: "/contact",
   },
 ];
