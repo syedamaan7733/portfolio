@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 
 // component
 import Social from "@/components/Social";
+import Photo from "@/components/Photo";
 function page() {
   return (
     <section className="h-full">
@@ -32,13 +33,20 @@ function page() {
                 <FiDownload />
               </Button>
               <div className="mb-8 xl:mb-0">
-                <Social containerStyle={"flex gap-6"} iconStyle={"w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"} />
+                <Social
+                  containerStyle={"flex gap-6"}
+                  iconStyle={
+                    "w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"
+                  }
+                />
               </div>
             </div>
           </div>
 
           {/* Picture */}
-          <div>pic</div>
+          <div>
+            <Photo />
+          </div>
         </div>
       </div>
     </section>
