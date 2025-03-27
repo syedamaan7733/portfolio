@@ -9,7 +9,7 @@ export default function Photo() {
       <motion.div>
         <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]">
           <Image
-            src="/assets/work/Amaan-ggpng"
+            src="/assets/work/profile_pic.png"
             className="object-contain"
             priority
             fill
